@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(81, 99, 100);
+    padding: 0;
+    margin: 0;
+}
+.main-backgound{
+    height:700px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.75)), url(backgorund.jpg);
+    background-size: cover;
+    
+}
+.nav-bg{
+    height:120px;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+.navbar{
+    height:90px;
+    display: flex;
+}
+.logo-div{
+    height:80px;
+    width:190px;
+    background-image: url(logo.png);
+    background-size: cover;
+}
+.options-bar{
+    height:32px;
+    width: 120px;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0);
+    border: 1px white solid;
+    border-radius: 1px;
+    color: white;
+    margin-right: 6px;
+}
+#nav-btn{
+    height:34px;
+    width:76px;
+    color: white;
+    background-color: #db0000;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+#nav-btn:hover{
+    background-color: #c70505;
+}
+.nav-option{
+    margin: 23px 0px 0px 52rem;
+}
+.text-div{
+    height:580px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+#bold-txt{
+    font-weight:900;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    margin: 0px 0px 0px 0px;
+}
+#r-txt{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+#ready-txt{
+    color:white;
+    font-size:1.2rem;
+    margin-top: 10px;
+}
+.input-box{
+    height:24px;
+    width: 340px;
+    padding: 17px 16px 10px 16px;
+    border: 1px white solid;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: rgba(137, 43, 226, 0);
+    color: white;
+}
+.get-txt{
+    height:55px;
+    width:210px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    background-color: #db0000;
+    border: none;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.get-txt:hover{
+    background-color: #c70505;
+}
+#color-option{
+    color:black
+}
+
+.box4-div{
+    height: 340px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.more-txt{
+    height: 30px;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    margin: 0px 0px 0px 110px;
+    color: white;
+}
+.box4{
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    gap:1.5rem;
+    
+}
+#boxid{
+    height: 275px;
+    width: 295px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #0c092b,#300046,#590043);
+    color: white;
+  
+}
+.box1{
+    margin-left: 110px;
+}
+.box-txt{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+    margin:15px 0px 0px 15px;
+}
+.box-txt2{
+    color: grey;
+    font-weight: 600;
+    margin: 10px 0px 0px 15px;
+    font-size: 1rem;
+    
+}
